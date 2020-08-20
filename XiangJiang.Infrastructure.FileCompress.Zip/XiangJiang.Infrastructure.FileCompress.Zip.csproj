@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>YanZhiwei</Authors>
+    <Product>XiangJiang</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>File compress and extract tool library based on SharpZipLib,using the document: https://github.com/YanZhiwei/XiangJiang.Infrastructure.FileCompress.Zip/wiki; Welcome to pull request or star.</Description>
+    <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Infrastructure.FileCompress.Zip</PackageProjectUrl>
+    <RepositoryUrl>XiangJiang.Infrastructure.FileCompress.Zip</RepositoryUrl>
+    <PackageIcon>nugetico.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpZipLib.NETStandard" Version="1.0.7" />
+    <PackageReference Include="XiangJiang" Version="1.0.3" />
+    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.assets\nugetico.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
