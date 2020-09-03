@@ -14,8 +14,8 @@
 
   <ItemGroup>
     <PackageReference Include="SharpZipLib.NETStandard" Version="1.0.7" />
-    <PackageReference Include="XiangJiang" Version="1.0.3" />
-    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.2" />
+    <PackageReference Include="XiangJiang" Version="1.0.5" />
+    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
