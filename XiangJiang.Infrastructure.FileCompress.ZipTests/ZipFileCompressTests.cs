@@ -2,8 +2,9 @@
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using XiangJiang.Infrastructure.Abstractions;
+using XiangJiang.Infrastructure.FileCompress.Zip;
 
-namespace XiangJiang.Infrastructure.FileCompress.Zip.Tests
+namespace XiangJiang.Infrastructure.FileCompress.ZipTests
 {
     [TestClass]
     public class ZipFileCompressTests
