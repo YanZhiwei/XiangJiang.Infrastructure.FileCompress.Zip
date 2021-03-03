@@ -1,7 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>YanZhiwei</Authors>
     <Product>XiangJiang</Product>
@@ -10,13 +10,13 @@
     <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Infrastructure.FileCompress.Zip</PackageProjectUrl>
     <RepositoryUrl>XiangJiang.Infrastructure.FileCompress.Zip</RepositoryUrl>
     <PackageIcon>nugetico.png</PackageIcon>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="SharpZipLib.NETStandard" Version="1.0.7" />
-    <PackageReference Include="XiangJiang" Version="1.0.9" />
-    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.4" />
+    <PackageReference Include="XiangJiang" Version="2.0.0" />
+    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.5" />
   </ItemGroup>
 
   <ItemGroup>
